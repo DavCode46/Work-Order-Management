@@ -1,0 +1,39 @@
+.sidebar {
+  background: #1c1c1c;
+  width: 15rem;
+  padding: 3rem;
+  position: fixed;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+
+  & .sidebar__header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  & .sidebar__menu > li {
+    margin-bottom: 2.5rem;
+  
+    & .sidebar__menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.6rem;
+      color: #fff;
+      transition: background-color 0.3s ease, transform 0.1s ease;
+  
+      &:hover {
+        background-color: #252525; 
+        border-radius: 0.5rem; 
+        transform: translateY(-3px);
+      }
+    }
+  }
+  
+
+}
+
