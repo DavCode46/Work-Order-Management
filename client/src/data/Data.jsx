@@ -29,12 +29,12 @@ const MENU_DATA =
           path: '/maintenance',
           icon: MdOutlineBuild,
         },
-        {
-          key: 'meters',
-          label: 'Meters',
-          path: '/meters',
-          icon: MdOutlineSpeed,
-        },
+        // {
+        //   key: 'meters',
+        //   label: 'Meters',
+        //   path: '/meters',
+        //   icon: MdOutlineSpeed,
+        // },
         {
           key: 'items',
           label: 'Items',
@@ -47,12 +47,12 @@ const MENU_DATA =
           path: '/locations',
           icon: MdOutlineLocationOn,
         },
-        {
-          key: 'reports',
-          label: 'Reports',
-          path: '/reports',
-          icon: MdOutlineAssessment,
-        },
+        // {
+        //   key: 'reports',
+        //   label: 'Reports',
+        //   path: '/reports',
+        //   icon: MdOutlineAssessment,
+        // },
         {
           key: 'more',
           label: 'More',
@@ -60,6 +60,8 @@ const MENU_DATA =
           icon: MdOutlineMoreHoriz,
         },
       ];
+
+
 
 
 export { MENU_DATA }
